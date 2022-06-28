@@ -7,3 +7,5 @@ some probles
 添加类似sys.path.append("G:\PracticalT\doubanmovie\doubanmovie")的文件路径
 解决方法二：
 导入的方法为from ..items import Item类
+
+此问题是在第二个doubanmovie文件下打开造成的问题
