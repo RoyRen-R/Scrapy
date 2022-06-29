@@ -9,3 +9,10 @@ some probles
 导入的方法为from ..items import Item类
 
 此问题是在第二个doubanmovie文件下打开造成的问题
+
+
+
+第二天的问题
+
+使用scrapy crawl moviespider -o csv.csv是中文出现乱码
+在setting文件中加入代码  FEED_EXPORT_ENCODING = "utf-8-sig"
